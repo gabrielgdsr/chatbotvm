@@ -407,7 +407,7 @@
           } else if (user.getWarningCount() === 2) {
             lastWarned = user.getLastWarning();
             timeSinceLastWarning = now.getTime() - lastWarned.getTime();
-            oneMinute = 2 * 60 * 1000;
+            oneMinute = 1 * 60 * 1000;
             if (timeSinceLastWarning > oneMinute) {
               DJs = API.getDJs();
               if (DJs.length > 0 && DJs[0].id !== user.getUser().id) {
