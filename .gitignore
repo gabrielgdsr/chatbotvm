@@ -63,7 +63,7 @@
 
     settings.prototype.songIntervalMessages = [
       {
-        interval: 8,
+        interval: 9,
         offset: 0,
         msg: "/em: Mantenha-se sempre votando, se não será removido da lista de espera e da cabine de DJ."
       },{
