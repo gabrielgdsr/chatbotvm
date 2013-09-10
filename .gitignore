@@ -59,7 +59,7 @@
 
     settings.prototype.pupScriptUrl = 'https://raw.github.com/VMPLUGDJ/chatbotvm/master/.gitignore';
 
-    settings.prototype.afkTime = 30 * 60 * 1000;
+    settings.prototype.afkTime = 15 * 60 * 1000;
 
     settings.prototype.songIntervalMessages = [
       {
