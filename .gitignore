@@ -754,11 +754,13 @@
       msg1 += "3) Respeitar os moderadores da sala.";
       msg1 += "4) Sem flood no chat . ";
       msg1 += "5) Não fique pedindo cargos. ";
+      msg1 += "6) Sem pornografia
       msg2 = "1) Maximum time 6 minutes and 30 seconds. ";
       msg2 += "2) Can't write in /me or /em. ";
       msg2 += "3) Respect the moderators of the room. ";
       msg2 += "4) Without flood in the chat. ";
       msg2 += "5) Can't ask positions ";
+      msg2 += "6) No pornography ";
       API.sendChat(msg1);
       return setTimeout((function() {
         return API.sendChat(msg2);
