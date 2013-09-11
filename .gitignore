@@ -349,7 +349,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me: Vaginal versão ETDBR 100%. ON!");
+    return API.sendChat("/me: brutos versão ETDBR 100%. ON!");
   };
 
   populateUserData = function() {
@@ -815,7 +815,7 @@
 
     sourceCommand.prototype.functionality = function() {
       var msg;
-      msg = ' BOT criado por Backus e editado por brutos para a Dubstep, Trap, and Electro (BR) ';
+      msg = ' BOT criado por Backus e editado por brutos para a Electro, Trap e Dubstep Brasil ';
       return API.sendChat(msg);
     };
 
