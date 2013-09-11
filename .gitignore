@@ -349,7 +349,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me: DTE versão brutos 100%. ON!");
+    return API.sendChat("/me: DTE versão DTE 100%. ON!");
   };
 
   populateUserData = function() {
