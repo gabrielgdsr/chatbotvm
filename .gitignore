@@ -893,7 +893,7 @@
       var msg;
       msg = "  Participe do grupo e curta nossa pagina ";
       msg += "https://www.facebook.com/groups/DTEplugdj/ ";
-      msg += "https://www.facebook.com/DTEPlugdj ";
+      msg += "https://www.facebook.com/pages/Electro-Trap-e-Dubstep-Brasil/224432991046815 ";
       return API.sendChat(msg);
     };
 
