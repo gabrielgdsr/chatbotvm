@@ -923,7 +923,7 @@
         dj = djs[_i];
         now = new Date();
         djAfk = now.getTime() - data.users[dj.id].getLastActivity().getTime();
-        if (djAfk > (10 * 60 * 1000)) {
+        if (djAfk > (4 * 60 * 1000)) {
           if (msToStr(djAfk) !== false) {
             msg += dj.username + ' - ' + msToStr(djAfk);
             msg += '. ';
