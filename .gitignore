@@ -892,8 +892,8 @@
     downloadCommand.prototype.functionality = function() {
       var msg;
       msg = "  Participe do grupo e curta nossa pagina ";
-      msg += "https://www.facebook.com/groups/DTEplugdj/ ";
       msg += "https://www.facebook.com/ETDPlugdj ";
+      msg += "https://www.facebook.com/groups/DTEplugdj/ ";
       return API.sendChat(msg);
     };
 
