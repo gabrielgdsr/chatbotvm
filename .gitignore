@@ -753,11 +753,11 @@
       msg1 += "2) Não escrever em /me ou /em.  ";
       msg1 += "3) Respeitar os moderadores da sala.";
       msg1 += "4) Sem flood no chat . ";
-      msg1 += "5) Não fique pedindo cargos. ";
+      msg1 += "5) Não fique pedindo cargos e sem fanbot. ";
       msg2 = "1) Maximum time 6 minutes and 30 seconds. ";
       msg2 += "2) Can't write in /me or /em. ";
       msg2 += "3) Respect the moderators of the room. ";
-      msg2 += "4) Without flood in the chat. ";
+      msg2 += "4) Without flood in the chat and without Fanbot. ";
       msg2 += "5) Can't ask positions.";
       API.sendChat(msg1);
       return setTimeout((function() {
@@ -1849,7 +1849,7 @@
       sender = API.getUser(chat.fromID);
       if (!sender.ambassador && !sender.moderator && !sender.owner && !sender.superuser) {
         if (!data.users[chat.fromID]["protected"]) {
-          API.sendChat("Sem spam");
+          API.sendChat("Sem divulgaçao");
           return API.moderateDeleteChat(chat.chatID);
         } else {
           return API.sendChat("Eu deveria expulsa-lo, mas estamos aqui para nos divertir");
