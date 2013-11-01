@@ -757,8 +757,8 @@
       msg2 = "1) Maximum time 6 minutes and 30 seconds. ";
       msg2 += "2) Can't write in /me or /em. ";
       msg2 += "3) Respect the moderators of the room. ";
-      msg2 += "4) Without flood in the chat , not ask fans. ";
-      msg2 += "5) Can't ask positions.";
+      msg2 += "4) Without flood in the chat.";
+      msg2 += "5) Can't ask positions , not ask fans";
       API.sendChat(msg1);
       return setTimeout((function() {
         return API.sendChat(msg2);
