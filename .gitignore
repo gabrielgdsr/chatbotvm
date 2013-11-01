@@ -1849,7 +1849,7 @@
       sender = API.getUser(chat.fromID);
       if (!sender.ambassador && !sender.moderator && !sender.owner && !sender.superuser) {
         if (!data.users[chat.fromID]["protected"]) {
-          API.sendChat("Sem divulgaçao");
+          API.sendChat("Eu deveria expulsa-lo, mas estamos aqui para nos divertir");
           return API.moderateDeleteChat(chat.chatID);
         } else {
           return API.sendChat("Eu deveria expulsa-lo, mas estamos aqui para nos divertir");
