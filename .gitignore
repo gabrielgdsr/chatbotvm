@@ -349,7 +349,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me: chatbot ON!");
+    return API.sendChat("/me: chatbot ON corra pras colina!");
   };
 
   populateUserData = function() {
